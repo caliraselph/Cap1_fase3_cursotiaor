@@ -50,7 +50,7 @@ Armazena os dados dos sensores e conserva o histórico de irrigação para consu
   <strong>Figura 1:</strong> Estrutura do Circuito
 </p>
 
-## Simulação em Execução
+## 🖥️ Simulação em Execução
 
 <p align="center">
   <img src="assets/simulation.png" alt="Simulação em Execução" border="0" width="50%" height="50%">
@@ -60,7 +60,7 @@ Armazena os dados dos sensores e conserva o histórico de irrigação para consu
   <strong>Figura 2:</strong> Simulação em Execução com Leitura dos Sensores
 </p>
 
-## Bibliotecas do Projeto
+## 📚 Bibliotecas do Projeto
 
 <p align="center">
   <img src="assets/library.png" alt="Bibliotecas do Projeto" border="0" width="50%" height="50%">
@@ -98,16 +98,16 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ### Código Fonte
 O código foi dividido em duas partes principais:
-* ESP32 (C/C++): Responsável pela leitura dos sensores e controle do relé. O código pode ser encontrado em `ESP32/codigo_esp32.ino`.
-* Python: Inclui scripts para CRUD e visualização dos dados (opcional). O arquivo `Python/crud.py` contém a lógica de armazenamento em um banco de dados SQL.
+* ESP32 (C/C++): Responsável pela leitura dos sensores e controle do relé. O código pode ser encontrado em `scr/wifi-scan.ino`.
+* Python: Inclui scripts para CRUD e visualização dos dados (opcional). O arquivo `...` contém a lógica de armazenamento em um banco de dados SQL.
 
 ### Passo a Passo para Execução
 Fase 1 - Simulação e Configuração de Sensores:
-* Abra o Wokwi.com e importe o código do ESP32, disponível na pasta src/esp32_code.
+* Abra o Wokwi.com e importe o código do ESP32.
 * Conecte os sensores simulados (Botões para P e K, LDR para pH, DHT22 para umidade) e o relé.
 * Execute a simulação e observe o comportamento dos sensores e do relé.
   
-ou, acesse o link disponibilizado no arquivo 'link_projeto_wokwi'.
+ou, acesse o link disponibilizado no arquivo `link_projeto_wokwi.txt`.
 
 Fase 2 - Configuração do Banco de Dados:
 * Configure o banco de dados SQL usando a modelagem da fase anterior.
