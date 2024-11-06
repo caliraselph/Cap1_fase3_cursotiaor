@@ -29,16 +29,16 @@ Grupo 47
 
 O objetivo principal é otimizar o uso da água em uma lavoura, através do monitoramento das condições do solo e da ajustagem automática da irrigação conforme necessário. Para isso, utilizamos um ESP32 integrado a sensores simulados no Wokwi, responsáveis por medir a umidade do solo, os níveis de nutrientes e o pH.  O sistema armazena os dados coletados em um banco de dados SQL para manter o histórico de leituras e controlar o acionamento de uma bomba d’água, representada por um relé.
 
-Componentes do sistema:
-
-Sensores e Atuadores:
+**Componentes do sistema**
+- Sensores e Atuadores:
 * Microcontrolador ESP32: Gerencia as leituras dos sensores e controla a irrigação.
 * Botões: Representam sensores de nutrientes (um botão para Fósforo e outro para Potássio).
 * LDR (Light Dependent Resistor): Simula a leitura do pH do solo.
 * DHT22: Sensor de umidade para monitorar a umidade do solo.
 * Relé: Representa a bomba d'água para irrigação, ligando e desligando conforme a necessidade.
 
-Banco de Dados SQL:
+- Banco de Dados SQL:
+
 Armazena os dados dos sensores e conserva o histórico de irrigação para consulta e análise. A conexão com o banco de dados é realizada através de Python, utilizando operações CRUD para monitorar as condições do solo e aprimorar a irrigação.
 
 ## ⚙️ Estrutura do Circuito
