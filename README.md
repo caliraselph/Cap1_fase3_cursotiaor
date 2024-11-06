@@ -6,9 +6,9 @@
 
 <br>
 
-#🌾 Projeto de Sistema de Irrigação Inteligente - FarmTech Solutions
+# 🌾 Projeto de Sistema de Irrigação Inteligente - FarmTech Solutions
 
-# Nome do Projeto
+## Nome do Projeto
 Fase 3 - Cap 1 - Construindo uma Máquina Agrícola
 
 ## Nome do grupo
@@ -92,17 +92,17 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-# Pré-requisitos
+### Pré-requisitos
 * ESP32 configurado no simulador Wokwi para testes dos sensores.
 * Python e bibliotecas como mysql-connector-python para integração com o banco de dados.
 * Banco de Dados SQL configurado localmente ou na nuvem para armazenar dados dos sensores.
 
-# Código Fonte
+### Código Fonte
 O código foi dividido em duas partes principais:
-- **ESP32 (C/C++)**: Responsável pela leitura dos sensores e controle do relé. O código pode ser encontrado em `ESP32/codigo_esp32.ino`.
-- **Python**: Inclui scripts para CRUD e visualização dos dados (opcional). O arquivo `Python/crud.py` contém a lógica de armazenamento em um banco de dados SQL.
+* ESP32 (C/C++): Responsável pela leitura dos sensores e controle do relé. O código pode ser encontrado em `ESP32/codigo_esp32.ino`.
+* Python: Inclui scripts para CRUD e visualização dos dados (opcional). O arquivo `Python/crud.py` contém a lógica de armazenamento em um banco de dados SQL.
 
-# Passo a Passo para Execução
+### Passo a Passo para Execução
 Fase 1 - Simulação e Configuração de Sensores:
 * Abra o Wokwi.com e importe o código do ESP32, disponível na pasta src/esp32_code.
 * Conecte os sensores simulados (Botões para P e K, LDR para pH, DHT22 para umidade) e o relé.
@@ -116,7 +116,6 @@ Fase 2 - Configuração do Banco de Dados:
 * No terminal, execute o código para fazer a criação de tabelas e realizar as operações CRUD.
 
 ## 🗃 Histórico de lançamentos
-    * 
 * 0.1.0 - 06/10/2024
     *
 
