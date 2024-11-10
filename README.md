@@ -39,6 +39,25 @@ O objetivo principal é otimizar o uso da água em uma lavoura, através do moni
 
 2. Banco de Dados SQL:
 Armazena os dados dos sensores e conserva o histórico de irrigação para consulta e análise. A conexão com o banco de dados é realizada através de Python, utilizando operações CRUD para monitorar as condições do solo e aprimorar a irrigação.
+  2.1. Foi criado um menu em Python que permite inserir os dados dos sensores e mantém um histórico, permitindo consultar as informações por data e hora e analisar as mudanças.
+   
+     <img width="577" alt="image" src="https://github.com/user-attachments/assets/03046327-0be4-4906-a14a-b0304274a5c8">
+      <p align="center">
+        <strong>Figura 2.1.1:</strong> Menu para consulta do dados da máquina
+      </p>
+
+     <img width="329" alt="image" src="https://github.com/user-attachments/assets/8030162e-ea7a-4bab-a367-b25aedfe0dd5">
+      <p align="center">
+        <strong>Figura 2.1.2:</strong> Consulta de dados
+      </p>
+
+     <img width="1048" alt="image" src="https://github.com/user-attachments/assets/c5d013eb-e5c9-41de-9751-b55c52d7a833">
+     <p align="center">
+        <strong>Figura 2.1.3:</strong> Diagrama variação do nutriente pH no tempo
+      </p>
+
+
+
 
 ## ⚙️ Estrutura do Circuito
 
@@ -69,6 +88,8 @@ Armazena os dados dos sensores e conserva o histórico de irrigação para consu
 <p align="center">
   <strong>Figura 3:</strong> Bibliotecas do Projeto no Wokwi
 </p>
+
+
 
 
 ## 📁 Estrutura de pastas
