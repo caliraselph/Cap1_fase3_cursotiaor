@@ -120,7 +120,10 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 ### Código Fonte
 O código foi dividido em duas partes principais:
 * ESP32 (C/C++): Responsável pela leitura dos sensores e controle do relé. O código pode ser encontrado em `scr/wifi-scan.ino`.
-* Python: Inclui scripts para CRUD e visualização dos dados (opcional). O arquivo `...` contém a lógica de armazenamento em um banco de dados SQL.
+* Python: Inclui scripts para CRUD e visualização dos dados (opcional):
+  - O arquivo "src/crud/oracle_connect.py" contém a conexão com o banco de dados SQL(FIAP).
+  - O arquivo "src/crud/agro_nutriente.py" contém a lógica para o CRUD dos dados.
+  - O arquivo "src/crud/menu.py" contém as opções de visualização dos dados e gráfico.
 
 ### Passo a Passo para Execução
 Fase 1 - Simulação e Configuração de Sensores:
@@ -129,6 +132,11 @@ Fase 1 - Simulação e Configuração de Sensores:
 * Execute a simulação e observe o comportamento dos sensores e do relé.
   
 ou, acesse o link disponibilizado no arquivo `link_projeto_wokwi.txt`.
+
+[![Link Vídeo YOUTUBE](https://img.youtube.com/vi/c5SsRHuleC4/0.jpg)](https://www.youtube.com/watch?v=c5SsRHuleC4 "LINK VÍDEO YOUTUBE")
+<p align="left">
+  <strong></strong>Desmotração em Vídeo
+</p>
 
 Fase 2 - Configuração do Banco de Dados:
 * Configure o banco de dados SQL usando a modelagem da fase anterior.
